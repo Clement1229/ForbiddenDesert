@@ -34,6 +34,15 @@ public class RPGUser implements Serializable{
 		super();
 	}
 
+	
+	
+	public RPGUser(int uId) {
+		super();
+		this.uId = uId;
+	}
+
+
+
 	public int getuId() {
 		return uId;
 	}

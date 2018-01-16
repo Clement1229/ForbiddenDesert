@@ -56,7 +56,7 @@
 		</property>
 
 		<!-- scans for JPA -->
-		<property name="packagesToScan" value="com.revature.domain" />
+		<property name="packagesToScan" value="com.clement.domain" />
 
 	</bean>
 
