@@ -13,10 +13,10 @@ public class Main {
 	static RPGUser user;
 	
 	public static void main(String [] args) {
-		System.out.println("hello");
-		RPGUser user = new RPGUser(1);
-		RPGUser n = service.getUser(user);
-//		System.out.println(service.getUser(user));
-		System.out.println("++++++++++++++++++" + n.getuFirstName());
+//		System.out.println("hello");
+//		RPGUser user = new RPGUser(1);
+//		RPGUser n = service.getUser(user);
+////		System.out.println(service.getUser(user));
+//		System.out.println("++++++++++++++++++" + n.getuFirstName());
 	}
 }
