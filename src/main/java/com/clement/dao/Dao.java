@@ -10,4 +10,6 @@ public interface Dao {
 	//Read
 	public RPGUser getUser(RPGUser user);
 
+	public RPGUser getUserByUsername(RPGUser us);
+
 }

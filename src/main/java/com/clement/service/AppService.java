@@ -18,5 +18,19 @@ public class AppService {
 	public RPGUser getUser(RPGUser us) {
 		return dao.getUser(us);
 	}
+
+	public RPGUser validateLogin(RPGUser us) {
+		System.out.println("validateLogin();");
+		user = dao.getUserByUsername(us);
+		
+		if(user == null) {
+			return null;
+		} else if(user.getuPassword().equals(us.getuPassword())){
+			return user;
+		}else {
+			return null;
+		}
+		
+	}
 }
 
