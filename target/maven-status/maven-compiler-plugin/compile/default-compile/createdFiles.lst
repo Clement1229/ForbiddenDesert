@@ -1,0 +1,5 @@
+com\clement\Main.class
+com\clement\dao\DaoImpl.class
+com\clement\dao\Dao.class
+com\clement\domain\RPGUser.class
+com\clement\service\AppService.class
